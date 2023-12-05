@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap" rel="stylesheet">
+    <link type="Image/x-icon" href="images/dist/favicon.svg" rel="icon">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <h5 class="header__logo">Ink. House</h5>
+                <nav class="header__nav">
+                    <ul class="header__nav-list">
+                        <button class="header__nav-btn">
+                            <img class="header__nav-img" src="images/dist/menu.svg" width="30px" height="30px" alt="">
+                        </button>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#replics">
+                                Репродукции
+                            </a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#new">
+                                Новинки
+                            </a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#about">
+                                О нас
+                            </a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#">
+                                <svg class="header__nav-svg" width="22" height="22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_20501_102)" stroke="#2C2D35" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M8.25 20.167a.917.917 0 100-1.834.917.917 0 000 1.834zm10.083 0a.917.917 0 100-1.834.917.917 0 000 1.834zM.917.917h3.666L7.04 13.19a1.833 1.833 0 001.833 1.476h8.91a1.833 1.833 0 001.834-1.476l1.466-7.69H5.5" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_20501_102">
+                                            <path fill="#fff" d="M0 0h22v22H0z" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <span class="header__nav-count ">1</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+        </div>
+       
+    </header> <div class="leftside-menu leftside-menu--close">
+            <button class="leftside-menu__btn">
+                <img src="images/dist/close.svg" alt="img">
+            </button>
+            <ul class="leftside-menu__list">
+                <li class="leftside-menu__nav-item">
+                    <a class="leftside-menu__nav-link" href="#replics">
+                        Репродукции
+                    </a>
+                </li>
+                <li class="leftside-menu__nav-item">
+                    <a class="leftside-menu__nav-link" href="#new">
+                        Новинки
+                    </a>
+                </li>
+                <li class="leftside-menu__nav-item">
+                    <a class="leftside-menu__nav-link" href="#about">
+                        О нас
+                    </a>
+                </li>
+            </ul>
+            
+        </div>
+    <main>
+        <section class="intro">
+            <div class="container">
+                <div class="intro__inner">
+                    <img class="intro__img" src="images/dist/intr-bg.webp" width="540px" height="621px" alt="img">
+                    <div class="intro__info">
+                        <h1 class="intro__title">
+                            Реплики картин от 
+                            <span class="intro__title-span">
+                                Ink. House
+                            </span>
+                        </h1>
+                        <p class="intro__text">
+                            Высокое качество отрисовки на плотной бумаге или льняном холсте. Редкие произведения,
+                            доступные цены.
+                        </p>
+                        <a class="intro__link" href="#">Продукция</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="replics" id="replics">
+            <div class="container">
+                <h3 class="replics__title">Репродукции</h3>
+                <div class="replics__countries">
+                    <button class="replics__country" data-filter=".france">Франция</button>
+                    <button class="replics__country" data-filter=".germany">Германия</button>
+                    <button class="replics__country" data-filter=".england">Англия</button>
+                </div>
+                <div class="replics__box">
+                    <div class="replics__cards mix france">
+                        <div class="replics__card">
+                            <img class="replics__card-img" src="images/dist/replic1.webp" width="310px" height="422px"
+                                alt="Охота Амура">
+                            <a href="#" class="replics__card-author">Марсель Руссо</a>
+                            <h4 class="replics__card-title">Охота Амура</h4>
+                            <p class="replics__card-material">Холст, масло (50х80) </p>
+                            <p class="replics__card-price">14 500 руб</p>
+                            <button class="replics__card-btn">В корзину</button>
+                        </div>
+                        <div class="replics__card">
+                            <img class="replics__card-img" src="images/dist/replic2.webp" width="310px" height="422px"
+                                alt="Дама с собачкой">
+                            <a href="#" class="replics__card-author">Анри Селин</a>
+                            <h4 class="replics__card-title">Дама с собачкой</h4>
+                            <p class="replics__card-material">Акрил, бумага (50х80) </p>
+                            <p class="replics__card-price">16 500 руб</p>
+                            <button class="replics__card-btn">В корзину</button>
+                        </div>
+                        <div class="replics__card">
+                            <img class="replics__card-img" src="images/dist/replic3.webp" width="310px" height="422px"
+                                alt="Процедура">
+                            <a href="#" class="replics__card-author">Франсуа Дюпон</a>
+                            <h4 class="replics__card-title">Процедура</h4>
+                            <p class="replics__card-material">Цветная литография (40х60) </p>
+                            <p class="replics__card-price">20 000 руб</p>
+                            <button class="replics__card-btn">В корзину</button>
+                        </div>
+                        <div class="replics__card">
+                            <img class="replics__card-img" src="images/dist/replic4.webp" width="310px" height="422px"
+                                alt="Роза">
+                            <a href="#" class="replics__card-author">Луи Детуш</a>
+                            <h4 class="replics__card-title">Роза</h4>
+                            <p class="replics__card-material">Бумага, акрил (50х80) </p>
+                            <p class="replics__card-price">12 000 руб</p>
+                            <button class="replics__card-btn">В корзину</button>
+                        </div>
+                        <div class="replics__card">
+                            <img class="replics__card-img" src="images/dist/replic5.webp" width="310px" height="422px"
+                                alt="Птичья трапеза">
+                            <p class="replics__card-author">Франсуа Дюпон</p>
+                            <h4 class="replics__card-title">Птичья трапеза</h4>
+                            <p class="replics__card-material">Цветная литография (40х60) </p>
+                            <p class="replics__card-price">22 500 руб</p>
+                            <button class="replics__card-btn">В корзину</button>
+                        </div>
+                        <div class="replics__card">
+                            <img class="replics__card-img" src="images/dist/replic6.webp" width="310px" height="422px"
+                                alt="Пейзаж с рыбой">
+                            <p class="replics__card-author">Пьер Моранж</p>
+                            <h4 class="replics__card-title">Пейзаж с рыбой</h4>
+                            <p class="replics__card-material">Цветная литография (40х60)</p>
+                            <p class="replics__card-price">20 000 руб</p>
+                            <button class="replics__card-btn">В корзину</button>
+                        </div>
+                    </div>
+
+                    <div class="replics__cards mix germany">
+                        <div class="replics__card">
+                            <img class="replics__card-img" src="images/dist/germ1.webp" width="310px" height="422px"
+                                alt="Над городом">
+                            <p class="replics__card-author">Курт Вернер</p>
+                            <h4 class="replics__card-title">Над городом</h4>
+                            <p class="replics__card-material">Цветная литография (40х60) </p>
+                            <p class="replics__card-price">14 500 руб</p>
+                            <button class="replics__card-btn">В корзину</button>
+                        </div>
+                        <div class="replics__card">
+                            <img class="replics__card-img" src="images/dist/germ2.webp" width="310px" height="422px"
+                                alt="Птенцы">
+                            <p class="replics__card-author">Макс Рихтер</p>
+                            <h4 class="replics__card-title">Птенцы</h4>
+                            <p class="replics__card-material">Холст, масло (50х80) </p>
+                            <p class="replics__card-price">14 500 руб</p>
+                            <button class="replics__card-btn">В корзину</button>
+                        </div>
+                        <div class="replics__card">
+                            <img class="replics__card-img" src="images/dist/germ3.webp" width="310px" height="422px"
+                                alt="Среди листьев">
+                            <p class="replics__card-author">Мартин Майер</p>
+                            <h4 class="replics__card-title">Среди листьев</h4>
+                            <p class="replics__card-material">Цветная литография (40х60) </p>
+                            <p class="replics__card-price">20 000 руб</p>
+                            <button class="replics__card-btn">В корзину</button>
+                        </div>
+                        <div class="replics__card">
+                            <img class="replics__card-img" src="images/dist/germ4.webp" width="310px" height="422px"
+                                alt="Яркая птица">
+                            <p class="replics__card-author">Герман Беккер</p>
+                            <h4 class="replics__card-title">Яркая птица</h4>
+                            <p class="replics__card-material">Цветная литография (40х60) </p>
+                            <p class="replics__card-price">13 000 руб</p>
+                            <button class="replics__card-btn">В корзину</button>
+                        </div>
+                        <div class="replics__card">
+                            <img class="replics__card-img" src="images/dist/germ5.webp" width="310px" height="422px"
+                                alt="Дятлы">
+                            <p class="replics__card-author">Вульф Бауэр</p>
+                            <h4 class="replics__card-title">Дятлы</h4>
+                            <p class="replics__card-material">Бумага, акрил (50х80) </p>
+                            <p class="replics__card-price">20 000 руб</p>
+                            <button class="replics__card-btn">В корзину</button>
+                        </div>
+                        <div class="replics__card">
+                            <img class="replics__card-img" src="images/dist/germ6.webp" width="310px" height="422px"
+                                alt="Большие воды">
+                            <p class="replics__card-author">Вальтер Хартманн</p>
+                            <h4 class="replics__card-title">Большие воды</h4>
+                            <p class="replics__card-material">Бумага, акрил (50х80) </p>
+                            <p class="replics__card-price">23 000 руб</p>
+                            <button class="replics__card-btn">В корзину</button>
+                        </div>
+                    </div>
+
+                    <div class="replics__cards mix england">
+                        <div class="replics__card">
+                            <img class="replics__card-img" src="images/dist/eng1.webp" width="310px" height="422px"
+                                alt="Дикий зверь">
+                            <p class="replics__card-author">Пол Смит</p>
+                            <h4 class="replics__card-title">Дикий зверь</h4>
+                            <p class="replics__card-material">Акварель, бумага (50х80) </p>
+                            <p class="replics__card-price">19 500 руб</p>
+                            <button class="replics__card-btn">В корзину</button>
+                        </div>
+                        <div class="replics__card">
+                            <img class="replics__card-img" src="images/dist/eng2.webp" width="310px" height="422px"
+                                alt="Скалистый берег">
+                            <p class="replics__card-author">Джон Уайт</p>
+                            <h4 class="replics__card-title">Скалистый берег</h4>
+                            <p class="replics__card-material">Цветная литография (40х60) </p>
+                            <p class="replics__card-price">16 500 руб</p>
+                            <button class="replics__card-btn">В корзину</button>
+                        </div>
+                        <div class="replics__card">
+                            <img class="replics__card-img" src="images/dist/eng4.webp" width="310px" height="422px"
+                                alt="Река и горы">
+                            <p class="replics__card-author">Джим Уотсон</p>
+                            <h4 class="replics__card-title">Река и горы</h4>
+                            <p class="replics__card-material">Акварель, бумага (50х80) </p>
+                            <p class="replics__card-price">20 500 руб</p>
+                            <button class="replics__card-btn">В корзину</button>
+                        </div>
+                        <div class="replics__card">
+                            <img class="replics__card-img" src="images/dist/eng5.webp" width="310px" height="422px"
+                                alt="Белый попугай">
+                            <p class="replics__card-author">Юджин Зиллион</p>
+                            <h4 class="replics__card-title">Белый попугай</h4>
+                            <p class="replics__card-material">Цветная литография (40х60) </p>
+                            <p class="replics__card-price">15 500 руб</p>
+                            <button class="replics__card-btn">В корзину</button>
+                        </div>
+                        <div class="replics__card">
+                            <img class="replics__card-img" src="images/dist/eng6.webp" width="310px" height="422px"
+                                alt="Ночная рыба">
+                            <p class="replics__card-author">Эрик Гиллман</p>
+                            <h4 class="replics__card-title">Ночная рыба</h4>
+                            <p class="replics__card-material">Бумага, акрил (50х80) </p>
+                            <p class="replics__card-price">12 500 руб</p>
+                            <button class="replics__card-btn">В корзину</button>
+                        </div>
+                        <div class="replics__card">
+                            <img class="replics__card-img" src="images/dist/eng3.webp" width="310px" height="422px"
+                                alt="Рыжий кот">
+                            <p class="replics__card-author">Альфред Барр</p>
+                            <h4 class="replics__card-title">Рыжий кот</h4>
+                            <p class="replics__card-material">Цветная литография (40х60) </p>
+                            <p class="replics__card-price">21 000 руб</p>
+                            <button class="replics__card-btn">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="new" id="new">
+            <div class="container">
+                <div class="new__inner">
+                    <h3 class="new__title">Новая коллекция французских авторов</h3>
+                    <p class="new__text">Сложно сказать, почему акционеры крупнейших компаний призывают нас к новым
+                        свершениям, которые, в свою очередь, должны быть заблокированы в рамках своих собственных
+                        рациональных ограничений.
+                        Принимая во внимание показатели успешности, граница обучения кадров предопределяет высокую
+                        востребованность направлений прогрессивного развития.
+                    </p>
+                    <a class="new__link" href="#!">Ознакомиться</a>
+                </div>
+            </div>
+        </section>
+        <section class="team" id="about">
+            <div class="container">
+                <div class="team__inner">
+                    <img class="team__img" src="images/dist/team-img.webp" width="445px" height="440px" alt="team">
+                    <div class="team__info">
+                        <h3 class="team__title">Наша команда</h3>
+                        <p class="team__text">Значимость этих проблем настолько очевидна, что базовый вектор развития
+                            позволяет оценить значение экспериментов, поражающих по своей масштабности и грандиозности.
+                            Мы вынуждены отталкиваться от того, что консультация с широким активом.</p>
+                        <a href="#!">
+                            <img class="team__img-mini" src="images/dist/team1.svg" width="80px" height="80px" alt="team">
+                        </a>
+                        <a href="#!">
+                            <img class="team__img-mini" src="images/dist/team3.svg" width="80px" height="80px" alt="team">
+                        </a>
+                        <a href="#!">
+                            <img class="team__img-mini" src="images/dist/team2.svg" width="80px" height="80px" alt="team">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__info">
+                    <h5 class="footer__logo">Ink. House</h5>
+                    <div class="footer__number-box">
+                        <a class="footer__number" href="tel:+79995435454">+7 (999) 543-54-54</a>
+                        <p class="footer__number-text">Мастерская</p>
+                    </div>
+                </div>
+                <div class="footer__info-main">
+                    <div class="footer__info-lists">
+                        <ul class="footer__list">
+                            <a class="footer__list-title" href="#!">Репродукции</a>
+                            <li class="footer__list-item"><a class="footer__list-link" href="#!">Франция</a></li>
+                            <li class="footer__list-item"><a class="footer__list-link" href="#!">Германия</a></li>
+                            <li class="footer__list-item"><a class="footer__list-link" href="#!">Англия</a></li>
+                        </ul>
+                        <ul class="footer__list">
+                            <a class="footer__list-title" href="#!">Новинки</a>
+                            <li class="footer__list-item"><a class="footer__list-link" href="#!">2021</a></li>
+                            <li class="footer__list-item"><a class="footer__list-link" href="#!">2020</a></li>
+                        </ul>
+                        <ul class="footer__list">
+                            <a class="footer__list-title" href="#!">О нас</a>
+                            <li class="footer__list-item"><a class="footer__list-link" href="#!">Художники</a></li>
+                            <li class="footer__list-item"><a class="footer__list-link" href="#!">Менеджеры</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__other">
+                        <div class="footer__socials">
+                            <a class="footer__social-link" href="#!">
+                                <svg class="footer__social" width="24" height="24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_10_333)">
+                                        <path
+                                            d="M15.402 21v-6.966h2.333l.349-2.708h-2.682V9.598c0-.784.218-1.319 1.342-1.319h1.434V5.857a19.188 19.188 0 00-2.09-.107c-2.067 0-3.482 1.262-3.482 3.58v1.996h-2.338v2.708h2.338V21H4a1 1 0 01-1-1V4a1 1 0 011-1h16a1 1 0 011 1v16a1 1 0 01-1 1h-4.598z"
+                                            fill="#2C2D35" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_10_333">
+                                            <path fill="#fff" d="M0 0h24v24H0z" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                            <a class="footer__social-link" href="#!">
+                                <svg class="footer__social" width="24" height="24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_10_334)">
+                                        <path
+                                            d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153.509.5.902 1.105 1.153 1.772.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 01-1.153 1.772c-.5.508-1.105.902-1.772 1.153-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 01-1.772-1.153 4.904 4.904 0 01-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 011.153-1.772A4.897 4.897 0 015.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 100 10 5 5 0 000-10zm6.5-.25a1.25 1.25 0 10-2.5 0 1.25 1.25 0 002.5 0zM12 9a3 3 0 110 6 3 3 0 010-6z"
+                                            fill="#2C2D35" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_10_334">
+                                            <path fill="#fff" d="M0 0h24v24H0z" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                            <a class="footer__social-link" href="#!">
+                                <svg class="footer__social" width="24" height="24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_10_337)">
+                                        <path
+                                            d="M21.543 6.498C22 8.28 22 12 22 12s0 3.72-.457 5.502c-.254.985-.997 1.76-1.938 2.022C17.896 20 12 20 12 20s-5.893 0-7.605-.476c-.945-.266-1.687-1.04-1.938-2.022C2 15.72 2 12 2 12s0-3.72.457-5.502c.254-.985.997-1.76 1.938-2.022C6.107 4 12 4 12 4s5.896 0 7.605.476c.945.266 1.687 1.04 1.938 2.022zM10 15.5l6-3.5-6-3.5v7z"
+                                            fill="#2C2D35" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_10_337">
+                                            <path fill="#fff" d="M0 0h24v24H0z" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="footer__rights-box">
+                            <a class="footer__rights" href="">Ink. House ®</a>
+                            <a class="footer__rights" href="">All rights reserved</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
